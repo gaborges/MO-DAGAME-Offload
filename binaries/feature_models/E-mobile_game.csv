@@ -1,0 +1,17 @@
+strategy_mobile_game
+graphics
+framerate
+50fps
+detail_level
+medium
+game_mode
+turn_based
+wifi
+network
+connectivity
+sound
+quality
+128kbps
+vibration
+local_multiplayer
+multiplayer

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* Copyright 2014 Gustavo García Pascual, Mónica Pinto and Lidia Fuentes
+  ~  *
+  ~  * This file is part of MO-DAGAME
+  ~  * *
+  ~  * MO-DAGAME is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * MO-DAGAME is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  *
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with MO-DAGAME.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<resources>
+    <item name="settings_key_models_folder" format="string" type="string">models_folder</item>
+    <item name="settings_key_output_folder" format="string" type="string">output_folder</item>
+    <item name="settings_key_independent_runs" format="string" type="string">independent_runs</item>
+    <item name="settings_key_base_algorithm" format="string" type="string">base_algorithm</item>
+    <item name="settings_key_population_size" format="string" type="string">population_size</item>
+    <item name="settings_key_evaluations" format="string" type="string">evaluations</item>
+</resources>

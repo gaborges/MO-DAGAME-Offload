@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* Copyright 2014 Gustavo García Pascual, Mónica Pinto and Lidia Fuentes
+  ~  *
+  ~  * This file is part of MO-DAGAME
+  ~  * *
+  ~  * MO-DAGAME is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * MO-DAGAME is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  *
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with MO-DAGAME.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:picker="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/settings_section_storage">
+        <EditTextPreference
+            android:title="@string/settings_title_model_folder"
+            android:key="@string/settings_key_models_folder"/>
+
+        <EditTextPreference
+            android:title="@string/settings_title_output_folder"
+            android:key="@string/settings_key_output_folder"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_section_algorithm_parameters">
+        <ListPreference
+            android:title="@string/settings_title_baseAlgorithm"
+            android:key="@string/settings_key_base_algorithm"
+            android:defaultValue="@integer/settings_default_base_algorithm"
+            android:entries="@array/settings_entries_baseAlgorithm"
+            android:entryValues="@array/settings_entries_values_baseAlgorithm"/>
+
+        <org.uma.numberpicker.NumberPickerPreference
+            android:key="@string/settings_key_population_size"
+            android:title="@string/settings_title_population_size"
+            picker:defaultValue="@integer/settings_default_population_size"
+            picker:startRange="1"
+            picker:endRange="500"/>
+
+        <org.uma.numberpicker.NumberPickerPreference
+            android:key="@string/settings_key_evaluations"
+            android:title="@string/settings_title_evaluations"
+            picker:defaultValue="@integer/settings_default_evaluations"
+            picker:startRange="1"
+            picker:endRange="100000"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_section_benchmark_parameters">
+
+        <org.uma.numberpicker.NumberPickerPreference
+            android:key="@string/settings_key_independent_runs"
+            android:title="@string/settings_title_independent_runs"
+            picker:defaultValue="@integer/settings_default_independent_runs"
+            picker:startRange="1"
+            picker:endRange="2000"/>
+
+        <CheckBoxPreference
+            android:key="@string/settings_key_offload"
+            android:title="@string/settings_title_offload" />
+
+        <EditTextPreference
+            android:title="@string/settings_title_offload_server_address"
+            android:key="@string/settings_key_offload_server_address"/>
+
+        <EditTextPreference
+            android:title="@string/settings_title_offload_server_port"
+            android:key="@string/settings_key_offload_server_port"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+x264
+no_asm
+no_deblock
+rc_lookahead
+rc_lookahead_40
+ref_1
+ref
+no_mbtree

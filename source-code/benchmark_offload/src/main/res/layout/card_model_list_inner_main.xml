@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* Copyright 2014 Gustavo García Pascual, Mónica Pinto and Lidia Fuentes
+  ~  *
+  ~  * This file is part of MO-DAGAME
+  ~  * *
+  ~  * MO-DAGAME is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * MO-DAGAME is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  *
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with MO-DAGAME.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              style="@style/card"
+              android:background="@android:color/white"
+              android:padding="@dimen/activity_horizontal_margin"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/card_list_content_height">
+
+    <TextView
+        android:id="@+id/model_name"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_medium"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/model_summary"
+        android:textSize="@dimen/text_size_small"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/text_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

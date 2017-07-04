@@ -1,0 +1,29 @@
+<study independent_runs="1000">
+    <algorithms>
+        <algorithm name="NSGA-II" path="MoDagameNSGAII" />
+        <algorithm name="IBEA" path="MoDagameIBEA" />
+        <algorithm name="MOCHC" path="MoDagameMOCHC" />
+        <algorithm name="MOCell" path="MoDagameMOCell" />
+        <algorithm name="PAES" path="MoDagamePAES" />
+        <algorithm name="SPEA2" path="MoDagameSPEA2" />
+    </algorithms>
+    <problems>
+        <problem name="x264" path="A-x264" />
+        <problem name="Wget" path="B-Wget" />
+        <problem name="Berkeley DB Memory" path="C-BerkeleyDBMemory" />
+        <problem name="Sensor Network" path="D-SensorNetwork" />
+        <problem name="Mobile Game" path="E-mobile_game" />
+        <problem name="Tank War" path="F-TankWar" />
+        <problem name="Mobile Media" path="G-mobile_media2" />
+        <problem name="Mobile Guide" path="H-mobile_guide" />
+        <problem name="SPLOT-3CNF-500" path="I-SPLOT-3CNF-FM-500-50-1.00-SAT-1" />
+        <problem name="SPLOT-3CNF-1000" path = "J-SPLOT-3CNF-FM-1000-100-1.00-SAT-1" />
+        <problem name="SPLOT-3CNF-2000" path = "K-SPLOT-3CNF-FM-2000-200-0.50-SAT-1" />
+        <problem name="SPLOT-3CNF-5000" path = "L-SPLOT-3CNF-FM-5000-500-0.30-SAT-1" />
+    </problems>
+    <objectives>
+        <objective name="Usability" />
+        <objective name="Battery"/>
+        <objective name="Memory"/>
+    </objectives>
+</study>

@@ -1,0 +1,18 @@
+A12 stats calculator
+
+Usage
+-----
+A12experiment experiment_directory
+
+Example: A12experiment /home/bob/benchmark/output
+
+The script looks for the "specifications" file in the <experiment_directory>
+folder.
+
+
+Output
+------
+The script generates two CSV files in the experiment folder:
+
+(a) a12.csv. Includes A12 stats for each problem separately.
+(b) a12_overall.csv. A12 stats taking into account all the problems.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmark_offload/benchmark_offload.iml" filepath="$PROJECT_DIR$/benchmark_offload/benchmark_offload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature_models/feature_models.iml" filepath="$PROJECT_DIR$/feature_models/feature_models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmetal-source/jmetal-source.iml" filepath="$PROJECT_DIR$/jmetal-source/jmetal-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mo-dagame.iml" filepath="$PROJECT_DIR$/mo-dagame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numberpicker/numberpicker.iml" filepath="$PROJECT_DIR$/numberpicker/numberpicker.iml" />
+    </modules>
+  </component>
+</project>

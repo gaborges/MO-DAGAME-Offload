@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /* Copyright 2014 Gustavo García Pascual, Mónica Pinto and Lidia Fuentes
+  ~  *
+  ~  * This file is part of MO-DAGAME
+  ~  * *
+  ~  * MO-DAGAME is free software: you can redistribute it and/or modify
+  ~  * it under the terms of the GNU General Public License as published by
+  ~  * the Free Software Foundation, either version 3 of the License, or
+  ~  * (at your option) any later version.
+  ~  *
+  ~  * MO-DAGAME is distributed in the hope that it will be useful,
+  ~  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  * GNU General Public License for more details.
+  ~  *
+  ~  * You should have received a copy of the GNU General Public License
+  ~  * along with MO-DAGAME.  If not, see <http://www.gnu.org/licenses/>.
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/layout_model_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <it.gmariotti.cardslib.library.view.CardView
+                android:id="@+id/card_benchmark_finished"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <it.gmariotti.cardslib.library.view.CardView
+                android:id="@+id/card_model_list"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/actionButton"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_bar_height"
+        android:layout_weight="0"
+        android:background="@drawable/blue_button_bg_color"
+        android:text="@string/load_models"
+        android:textSize="@dimen/text_size_medium"
+        android:textAllCaps="true"
+        android:textColor="@drawable/blue_button_text_color"
+        android:fontFamily="sans-serif"/>
+</LinearLayout>

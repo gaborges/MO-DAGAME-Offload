@@ -1,0 +1,7 @@
+base
+wget
+output_file
+no_directories
+no_cookies
+save_headers
+convert_links

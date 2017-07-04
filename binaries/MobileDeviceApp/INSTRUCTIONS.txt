@@ -1,0 +1,28 @@
+## Usage
+
+In order to use the benchmark app on the mobile device:
+
+- copy the benchmark_offload-debug.apk to an Android smartphone
+- click to in the file to install (a message asking if you want to install a nonlicenced application will show up. You must agree to proceed)
+- Create a folder in the device sdcard
+(e.g. /sdcard/modagame-benchmark/models) and copy the input models in that folder.
+- Create a folder to store the results of the benchmark (e.g. /sdcard/modagame-benchmark/output)
+- Launch MO-DAGAME Benchmark and configure the path of both folders in the
+
+Settings menu.
+-- If you use the offload, you must add the server address and port
+- Load the database
+- Run the benchmark
+
+-- ** After each run you must copy the output folder to a different directory and create again the output folder. It might be done to avoid trash data.
+
+The following runs were performed on the experiments:
+Smartphone A - Algothm NSGA-II - No offload (local execution)
+Smartphone A - Algothm PAES - No offload (local execution)
+
+Smartphone A - Algothm NSGA-II - With offload to Cloud (remote execution)
+Smartphone A - Algothm PAES - With offload to Cloud (remote execution)
+
+Smartphone A - Algothm NSGA-II - With offload to Cloudlet (remote execution)
+Smartphone A - Algothm PAES - With offload to Cloudlet (remote execution)
+
