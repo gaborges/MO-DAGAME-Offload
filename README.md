@@ -16,4 +16,3 @@ Other folders:
 * [Binaries] (https://github.com/gaborges/MO-DAGAME-Offload/binaries)
 * [Trird-party libs] (https://github.com/gaborges/MO-DAGAME-Offload/libs)
 * [Raw results of the experiments] (https://github.com/gaborges/MO-DAGAME-Offload/experimental-results)
-
